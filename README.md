@@ -20,6 +20,14 @@
 | Bilibili        | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule)| 去除无效信息          | [Maasea](https://github.com/Maasea)           |
 
 
+## 脚本分享
+
+
+## 面板分享
+| 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |
+| -------------- | -------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |
+| 节点IP信息   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.sgmodule)   | 查看当前代理节点的IP信息 | [Rabbit-Spec](https://github.com/Rabbit-Spec)           |
+
 
 ## 注意事项
 
