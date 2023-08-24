@@ -18,7 +18,7 @@
 | 微信阅读去广告   | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule)       | 去除无效信息          | [Maasea](https://github.com/Maasea)           |
 | Keep去广告      | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/KeepAds.sgmodule)       | 去除无效信息          | [Maasea](https://github.com/Maasea)           |
 | Bilibili        | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule)| 去除无效信息          | [Maasea](https://github.com/Maasea)           |
-
+| 京东比价   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/JD_Price/Moore/JD_Price.sgmodule)   | 点击商品标题查看最低价格 | [Rabbit-Spec](https://github.com/Rabbit-Spec)           |
 
 ## 脚本分享
 
@@ -27,6 +27,7 @@
 | 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |
 | -------------- | -------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |
 | 节点IP信息   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.sgmodule)   | 查看当前代理节点的IP信息 | [Rabbit-Spec](https://github.com/Rabbit-Spec)           |
+
 
 
 ## 注意事项
