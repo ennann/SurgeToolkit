@@ -20,4 +20,5 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+#AL Test Runner
 .DS_Store
