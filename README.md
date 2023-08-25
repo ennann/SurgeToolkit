@@ -10,7 +10,7 @@
 ## 概述
 本仓库（`SurgeToolkit`）主要集成了各种与 Surge 软件相关的 Modules、Scripts 等工具。
 
-## 模块分享
+## 模块
 
 | 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |
 | -------------- | -------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |
@@ -20,10 +20,10 @@
 | Bilibili        | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule)| 去除无效信息          | [Maasea](https://github.com/Maasea)           |
 | 京东比价   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/JD_Price/Moore/JD_Price.sgmodule)   | 点击商品标题查看最低价格 | [Rabbit-Spec](https://github.com/Rabbit-Spec)           |
 
-## 脚本分享
+## 脚本
 
 
-## 面板分享
+## 面板
 | 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |
 | -------------- | -------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |
 | 节点IP信息   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.sgmodule)   | 查看当前代理节点的IP信息 | [Rabbit-Spec](https://github.com/Rabbit-Spec)           |
