@@ -1,0 +1,8 @@
+{
+    "name": "Company Logo",
+    "icons": [
+        { "name": "Apple Color", "url": "" },
+        { "name": "Apple Gray", "url": "" },
+        { "name": "Microsoft", "url": "" }
+    ]
+}
