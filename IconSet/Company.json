@@ -1,8 +1,8 @@
 {
     "name": "Company Logo",
     "icons": [
-        { "name": "Apple Color", "url": "" },
-        { "name": "Apple Gray", "url": "" },
-        { "name": "Microsoft", "url": "" }
+        { "name": "Apple Color", "url": "https://github.com/ennann/SurgeToolkit/blob/main/IconSet/Logos/Apple_color.png" },
+        { "name": "Apple Gray", "url": "https://github.com/ennann/SurgeToolkit/blob/main/IconSet/Logos/Apple_grey.png" },
+        { "name": "Microsoft", "url": "https://github.com/ennann/SurgeToolkit/blob/main/IconSet/Logos/Microsoft.png" }
     ]
 }
