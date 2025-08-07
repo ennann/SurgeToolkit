@@ -4,7 +4,7 @@
 
 #-----------------以下为解析后的规则-----------------#
 
-USERACTIVITY=SWITCH,true
+
 DOMAIN,api.biliapi.com
 DOMAIN,app.biliapi.com
 DOMAIN,api.biliapi.net
