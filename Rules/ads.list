@@ -1,0 +1,254 @@
+#规则数量:248
+#不支持的规则数量:0
+#已排除的规则数量:0
+
+#-----------------以下为解析后的规则-----------------#
+
+USERACTIVITY=SWITCH,true
+DOMAIN,api.biliapi.com
+DOMAIN,app.biliapi.com
+DOMAIN,api.biliapi.net
+DOMAIN,app.biliapi.net
+DOMAIN-SUFFIX,chat.bilibili.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,v2mi.gdt.qq.com
+DOMAIN,da.bridgeturbo.com
+DOMAIN,adx-os.bridgeturbo.com
+DOMAIN,adx-bj.anythinktech.com
+DOMAIN,mobads.baidu.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.calorietech.com
+DOMAIN,hc-ssp.sm.cn
+AND,((DOMAIN-KEYWORD,-ad-),(DOMAIN-SUFFIX,byteimg.com)),REJECT
+AND,((DOMAIN-KEYWORD,-ttam-),(DOMAIN-SUFFIX,ibyteimg.com)),REJECT
+AND,((DOMAIN-KEYWORD,ssdk-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
+AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-short.bytetos.com)),REJECT
+AND,((DOMAIN-KEYWORD,v),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,s),(DOMAIN-KEYWORD,-fe-scm.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-ttcdn-tos.pstatp.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-static.i18n-pglstatp.com)),REJECT
+AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-cdn-tos.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,normal),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-access-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-log-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-dual-event-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
+AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,-normal-lq),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
+URL-REGEX,^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/
+DOMAIN,mon.zijieapi.com
+DOMAIN,lf-ad-ies.bytecdn.cn
+DOMAIN,i.snssdk.com
+DOMAIN,is.snssdk.com
+DOMAIN,bds.snssdk.com
+DOMAIN,dm.bytedance.com
+DOMAIN,dm.pstatp.com
+DOMAIN,dm.toutiao.com
+DOMAIN,log.snssdk.com
+DOMAIN,s3a.pstatp.com
+DOMAIN,sdfp.snssdk.com
+DOMAIN,tosv.boe.byted.org
+DOMAIN,tosv.byted.org
+DOMAIN,extlog.snssdk.com
+DOMAIN,mssdk-bu.bytedance.com
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,mssdk.volces.com
+DOMAIN,pangolin.snssdk.com
+DOMAIN,gromore.pangolin-sdk-toutiao.com
+DOMAIN,ether-pack.pangolin-sdk-toutiao.com
+DOMAIN-KEYWORD,-ad-sign.byteimg.com
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao
+DOMAIN-KEYWORD,-ad.byteoversea.com
+DOMAIN-KEYWORD,video-cn.snssdk.com
+DOMAIN-KEYWORD,asiad.byteactivity
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,c2.gdt.qq.com
+DOMAIN,huatuocode.huatuo.qq.com
+DOMAIN,info4.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,ios.video.mpush.qq.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,qzs.gdtimg.com
+DOMAIN,qzs.qq.com
+DOMAIN,rmonitor.qq.com
+DOMAIN,sdk.e.qq.com
+DOMAIN,sdkconfig.video.qq.com
+DOMAIN,t.gdt.qq.com
+DOMAIN,tmead.y.qq.com
+DOMAIN,tmeadbak.y.qq.com
+DOMAIN,tmeadcomm.y.qq.com
+DOMAIN,tpns.qq.com
+DOMAIN,v.gdt.qq.com
+DOMAIN,v2.gdt.qq.com
+DOMAIN,win.gdt.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,tpstelemetry.tencent.com
+DOMAIN-KEYWORD,trace.qq.com
+DOMAIN-KEYWORD,trace.video.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,ugdtimg.com
+IP-CIDR,47.110.187.87/32,no-resolve
+DOMAIN,cnlogs.umeng.com
+DOMAIN,errlog.umeng.com
+DOMAIN,errnewlog.umeng.com
+DOMAIN,ucc.umeng.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,utoken.umeng.com
+DOMAIN,deeplink.umeng.com
+DOMAIN,aspect-upush.umeng.com
+DOMAIN,plbslog.umeng.com
+DOMAIN,log.umtrack.com
+DOMAIN,aaid.umeng.com
+DOMAIN,log.umsns.com
+DOMAIN,ali-stats.jpush.cn
+DOMAIN,ce3e75d5.jpush.cn
+DOMAIN,config-junion.jpush.cn
+DOMAIN,config.jpush.cn
+DOMAIN,fcapi-ipv6.jpush.cn
+DOMAIN,gd-stats.jpush.cn
+DOMAIN,s.jpush.cn
+DOMAIN,sdk.verification.jiguang.cn
+DOMAIN,sis-ipv6.jpush.cn
+DOMAIN,smartop-sdkapi.jiguang.cn
+DOMAIN,status-ipv6.jpush.cn
+DOMAIN,tsis.jpush.cn
+DOMAIN,user.jpush.cn
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
+DOMAIN,sdk.tianmu.mobi
+DOMAIN,tracker.tianmu.mobi
+DOMAIN,sdk.beizi.biz
+DOMAIN,api-htp.beizi.biz
+DOMAIN,monitor.ssp.admobile.top
+DOMAIN,sdk.ssp.admobile.top
+DOMAIN,ax.admobile.top
+DOMAIN,jump.admobile.top
+DOMAIN-SUFFIX,admobile.top
+DOMAIN,gdfp.gifshow.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN-SUFFIX,adukwai.com
+DOMAIN,adx.adtaipo.com
+DOMAIN,adx.kuaiyiad.com
+DOMAIN,adreport.adtianmai.com
+DOMAIN,adxapi.readgps.com
+DOMAIN,t.fanglinad.com
+DOMAIN,trk1.17admob.com
+DOMAIN,nfy.slyxmobi.com
+DOMAIN,api.mobrtb.com
+DOMAIN,ssp.maplehaze.cn
+DOMAIN-SUFFIX,lnk0.com
+AND, ((DOMAIN-KEYWORD, api100-core-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-normal-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-normal-quic-aweme-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-quic-core-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-quic-normal-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, frontier-aweme-), (AND, ((OR, ((DOMAIN-KEYWORD, -ipa.), (DOMAIN-KEYWORD, -ipainner.), (DOMAIN-KEYWORD, -origin.), (DOMAIN-KEYWORD, -ipainner-))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, amemv.com)))))), REJECT
+AND, ((DOMAIN-KEYWORD, frontier100-aweme), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ma5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, polaris5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, webcast100-ws-c-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, tnc), (AND, ((OR, ((DOMAIN-KEYWORD, -bjlgy), (DOMAIN-KEYWORD, -alisc), (DOMAIN-KEYWORD, -aliec), (DOMAIN-KEYWORD, -alisg))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, zijieapi.com)))))), REJECT
+DOMAIN,frontier-aweme-hl.snssdk.com
+DOMAIN,frontier-aweme.snssdk.com
+DOMAIN,frontier-quic-test.bytedance.com
+AND, ((IP-CIDR, 110.249.199.75/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.225.147.191/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.63.61.101/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 220.243.141.0/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((DOMAIN-KEYWORD, -ad-), (DOMAIN-SUFFIX, byteimg.com)), REJECT
+AND, ((DOMAIN-KEYWORD, -ttam-), (DOMAIN-SUFFIX, ibyteimg.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ssdk-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, pangolin), (DOMAIN-SUFFIX, sgsnssdk.com)), REJECT
+AND, ((DOMAIN-KEYWORD, lf), (DOMAIN-KEYWORD, -short.bytetos.com)), REJECT
+AND, ((DOMAIN-KEYWORD, v), (DOMAIN-KEYWORD, -be-pack.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -be-pack.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, s), (DOMAIN-KEYWORD, -fe-scm.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -ttcdn-tos.pstatp.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -static.i18n-pglstatp.com)), REJECT
+AND, ((DOMAIN-KEYWORD, if), (DOMAIN-KEYWORD, -analytics.bytescm.com)), REJECT
+AND, ((DOMAIN-KEYWORD, lf), (DOMAIN-KEYWORD, -analytics.bytescm.com)), REJECT
+AND, ((DOMAIN-KEYWORD, lf), (DOMAIN-KEYWORD, -analytics.bytescm.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, normal), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -access-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -log-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -dual-event-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, pangolin), (DOMAIN-SUFFIX, sgsnssdk.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, -normal-lq), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+URL-REGEX,^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/
+DOMAIN,mon.zijieapi.com
+DOMAIN,i.snssdk.com
+DOMAIN,is.snssdk.com
+DOMAIN,bds.snssdk.com
+DOMAIN,dm.bytedance.com
+DOMAIN,dm.pstatp.com
+DOMAIN,dm.toutiao.com
+DOMAIN,log.snssdk.com
+DOMAIN,s3a.pstatp.com
+DOMAIN,sdfp.snssdk.com
+DOMAIN,tosv.boe.byted.org
+DOMAIN,tosv.byted.org
+DOMAIN,extlog.snssdk.com
+DOMAIN,mssdk-bu.bytedance.com
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,mssdk.volces.com
+DOMAIN,pangolin.snssdk.com
+DOMAIN,gromore.pangolin-sdk-toutiao.com
+DOMAIN-KEYWORD,-ad-sign.byteimg.com
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao
+DOMAIN-KEYWORD,-ad.byteoversea.com
+DOMAIN-KEYWORD,video-cn.snssdk.com
+DOMAIN-KEYWORD,asiad.byteactivity
+AND, ((DOMAIN, spclient.wg.spotify.com), (PROTOCOL, QUIC)), REJECT
+AND, ((DOMAIN, gae2-spclient.spotify.com), (PROTOCOL, QUIC)), REJECT
+AND, ((DOMAIN, guc3-spclient.spotify.com), (PROTOCOL, QUIC)), REJECT
+DOMAIN,httpdns.music.163.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns-sdk.n.netease.com
+DOMAIN,httpdns.yunxindns.com
+DOMAIN,lofter.httpdns.c.163.com
+DOMAIN,music.httpdns.c.163.com
+IP-CIDR,59.111.239.61/32,no-resolve
+IP-CIDR,59.111.239.62/32,no-resolve
+IP-CIDR,115.236.121.51/32,no-resolve
+IP-CIDR,115.236.121.195/32,no-resolve
+DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmat.nosdn.127.net
+DOMAIN,iadmatapk.nosdn.127.net
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.music.163.com
+AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
+DOMAIN,et.ykccn.com
+DOMAIN,appcloud.zhihu.com
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,crash2.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+DOMAIN,zxid-m.mobileservice.cn
+IP-CIDR,103.41.167.237/32,no-resolve
+IP-CIDR,118.89.204.198/32,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+DOMAIN,^https?://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg reject-200
+DOMAIN,https://access.mypikpak.com/access_controller/v1/area_accessible reject
+DOMAIN,^https?://magev6.if.qidian.com/argus/api/v1/client/iosad reject
+DOMAIN,^https?://magev6.if.qidian.com/argus/api/v1/bookshelf/getad reject
+DOMAIN,^https?://magev6.if.qidian.com/argus/api/v4/client/getsplashscreen? reject
+DOMAIN,https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig reject
+DOMAIN,^https?://pubads.g.doubleclick.net/gampad/ads reject
+DOMAIN,^https?://pagead2.googleadservices.com/pagead/adview reject
+DOMAIN,https://support.you.163.com/appversync/check.do reject
+DOMAIN,https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
