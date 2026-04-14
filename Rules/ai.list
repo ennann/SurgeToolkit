@@ -1,7 +1,7 @@
 # ========================================
 # NAME: AI-Rules-Merged
-# AUTHOR: merged from Sukka / Custom / blackmatrix7 + supplemental research
-# UPDATED: 2026-03-21
+# AUTHOR: merged from Sukka / Custom / blackmatrix7 + ip.net.coffee Claude Code 分流规则大全
+# UPDATED: 2026-04-14
 # DESCRIPTION: Merged AI-related domain routing rules
 # FORMAT: Surge / Quantumult X style domain rules
 # ========================================
@@ -36,12 +36,23 @@ DOMAIN,openaiapi-site.azureedge.net
 
 # Anthropic / Claude exact hosts
 DOMAIN,api.anthropic.com
+DOMAIN,cdn.anthropic.com
+DOMAIN,mcp.anthropic.com
+DOMAIN,console.anthropic.com
+DOMAIN,workbench.anthropic.com
+DOMAIN,anthropic.auth0.com
+DOMAIN,statsig.anthropic.com
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,platform.claude.com
 DOMAIN,code.claude.com
 DOMAIN,downloads.claude.ai
 DOMAIN,status.claude.com
 DOMAIN,support.claude.com
-DOMAIN,statsig.anthropic.com
+
+# Claude Code 监控上报（Datadog RUM 精确域名，非 datadoghq.com 子域）
+DOMAIN,browser-intake-us5-datadoghq.com
 
 # Other exact hosts
 DOMAIN,openrouter.ai
@@ -62,6 +73,8 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,trust.anthropic.com
 
@@ -122,7 +135,17 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sentry
+DOMAIN-KEYWORD,sift
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+
+# -------------------------------
+# IP / ASN 兜底规则（Anthropic 自有网段，建议放在域名规则之后）
+# -------------------------------
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
 
 # ========================================
 # EOF
